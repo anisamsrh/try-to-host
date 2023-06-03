@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sonyzach/usfm-validator.git"
+    "url": "git+https://github.com/anisamsrh/try-to-host.git"
   },
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
     "start-dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "test": "karma start",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
